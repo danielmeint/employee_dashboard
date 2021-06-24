@@ -1,0 +1,33 @@
+	COLUMN TABLE "employee_dashboard.employee_database.data::employees"
+(
+	"EmployeeID" INTEGER,
+	"Age" INTEGER ,
+	"Attrition" VARCHAR(50),
+	"BusinessTravel" VARCHAR(50),
+	"Department" VARCHAR(50),
+	"DistanceFromHome" INTEGER,
+	"Education" VARCHAR(50),
+	"EducationField" VARCHAR(50),
+	"EmployeeCount" INTEGER,
+	"Gender" VARCHAR(50),
+	"JobLevel" INTEGER,
+	"JobRole" VARCHAR(50),
+	"MaritalStatus" VARCHAR(50),
+	"MonthlyIncome" INTEGER,
+	"NumCompaniesWorked" INTEGER,
+	"PercentSalaryHike" INTEGER,
+	"StandardHours" INTEGER,
+	"StockOptionLevel" INTEGER,
+	"TotalWorkingYears" INTEGER,
+	"TrainingTimesLastYear" INTEGER,
+	"YearsAtCompany" INTEGER,
+	"YearsSinceLastPromotion" INTEGER,
+	"YearsWithCurrManager" INTEGER,
+	"EnvironmentSatisfaction" INTEGER,
+	"JobSatisfaction" INTEGER,
+	"WorkLifeBalance" INTEGER,
+	"JobInvolvement" INTEGER,
+	"PerformanceRating" INTEGER,
+	PRIMARY KEY ("EmployeeID")
+
+)

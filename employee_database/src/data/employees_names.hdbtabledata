@@ -1,0 +1,49 @@
+{
+	"format_version": 1,
+	"imports": [{
+		"target_table": "employee_dashboard.employee_database.data::employees_names",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "employee_dashboard.employee_database.data::employees_names.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		},
+		"import_settings": {
+			"include_filter": [],
+			"import_columns": [	
+				"EmployeeID",
+				"GivenName",
+				"MiddleInitial",
+				"Surname",
+				"Age",
+				"BusinessTravel",
+				"Department",
+				"DistanceFromHome",
+				"Education",
+				"EducationField",
+				"Gender",
+				"JobLevel",
+				"JobRole",
+				"MaritalStatus",
+				"MonthlyIncome",
+				"NumCompaniesWorked",
+				"PercentSalaryHike",
+				"StockOptionLevel",
+				"TotalWorkingYears",
+				"TrainingTimesLastYear",
+				"YearsAtCompany",
+				"YearsSinceLastPromotion",
+				"YearsWithCurrManager",
+				"EnvironmentSatisfaction",
+				"JobSatisfaction",
+				"WorkLifeBalance",
+				"JobInvolvement",
+				"PerformanceRating",
+				"Attrition"
+			]
+		}
+	}]
+}

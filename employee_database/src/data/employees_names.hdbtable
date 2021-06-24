@@ -1,0 +1,35 @@
+COLUMN TABLE "employee_dashboard.employee_database.data::employees_names"
+(
+	"EmployeeID" INTEGER CS_INT,
+	"GivenName" VARCHAR(50),
+	"MiddleInitial" CHAR(1) CS_FIXEDSTRING,
+	"Surname" VARCHAR(50),
+	"Age" INTEGER CS_INT,
+	"BusinessTravel" VARCHAR(50),
+	"Department" VARCHAR(80),
+	"DistanceFromHome" INTEGER CS_INT,
+	"Education" INTEGER CS_INT,
+	"EducationField" VARCHAR(50),
+	"Gender" VARCHAR(50),
+	"JobLevel" INTEGER CS_INT,
+	"JobRole" VARCHAR(80),
+	"MaritalStatus" VARCHAR(80),
+	"MonthlyIncome" INTEGER CS_INT,
+	"NumCompaniesWorked" INTEGER CS_INT,
+	"PercentSalaryHike" INTEGER CS_INT,
+	"StockOptionLevel" INTEGER CS_INT,
+	"TotalWorkingYears" INTEGER CS_INT,
+	"TrainingTimesLastYear" INTEGER CS_INT,
+	"YearsAtCompany" INTEGER CS_INT,
+	"YearsSinceLastPromotion" INTEGER CS_INT,
+	"YearsWithCurrManager" INTEGER CS_INT,
+	"EnvironmentSatisfaction" INTEGER CS_INT,
+	"JobSatisfaction" INTEGER CS_INT,
+	"WorkLifeBalance" INTEGER CS_INT,
+	"JobInvolvement" INTEGER CS_INT,
+	"PerformanceRating" INTEGER CS_INT,
+	"Attrition" INTEGER CS_INT,
+	PRIMARY KEY (
+		"EmployeeID"
+	)
+)

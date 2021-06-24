@@ -1,3 +1,25 @@
 ID: employee_dashboard
 _schema-version: '2.1'
 version: 0.0.1
+
+modules:
+ - name: employee_database
+   type: hdb
+   path: employee_database
+   requires:
+    - name: hdi_employee_database
+
+
+ - name: employee_odatajs
+   type: nodejs
+   path: employee_odatajs
+   provides:
+    - name: employee_odatajs_api
+      properties:
+         url: ${default-url}
+
+resources:
+ - name: hdi_employee_database
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
